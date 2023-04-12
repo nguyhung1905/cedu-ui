@@ -1,0 +1,127 @@
+.table-td:last-child {
+    width: 140px;
+    text-align: center;
+}
+
+.table td:last-child {
+    text-align: center;
+}
+
+.session-table thead th:last-child{
+    width: 80px;
+    text-align: center;
+}
+
+.cq-table thead th {
+    vertical-align: middle;
+}
+
+.cq-table thead th:last-child {
+    width: 80px;
+    text-align: center;
+}
+
+.course-table tbody tr:hover {
+    color: #212529;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+.course-table {
+    border: 1px solid #cccccc;
+}
+
+.course-table thead th {
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.course-table thead th:first-child {
+    max-width: 10px;
+}
+
+.modal-btn {
+    text-align: end;
+}
+
+.modal-btn button {
+    margin-left: 10px;
+}
+
+.required:after {
+    content: " *";
+    color: red;
+}
+
+.table-btn {
+    border: none;
+    background: inherit;
+    outline: none;
+}
+
+.custom-pagination {
+    overflow: auto;
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.no-col {
+    width: 20px;
+}
+.edit-col {
+    width: 10px;
+}
+
+.modal-btn {
+    text-align: end;
+}
+.modal-btn button {
+    margin-left: 10px;
+}
+
+.flex-table tbody {
+    max-height: 60vh;
+    overflow: auto;
+    display: block;
+}
+
+.sesion-table thead,
+.sesion-table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+.sesion-table tbody tr td:nth-child(2) {
+    width: 100%;
+}
+.sesion-table tbody tr td:first-child {
+    min-width: 60px;
+    justify-content: center;
+}
+.sesion-table thead th:nth-child(2) {
+    width: 100%;
+}
+
+.template-link {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.course-desc {
+}
+.course-desc .tooltiptext {
+     visibility: hidden;
+     //width: 120px;
+     background-color: #cccccc;
+     color: #212529;
+     text-align: center;
+     border-radius: 6px;
+     padding: 4px 8px;
+
+     /* Position the tooltip */
+     position: absolute;
+     z-index: 100;
+ }
+
+.course-desc:hover .tooltiptext {
+    visibility: visible;
+}

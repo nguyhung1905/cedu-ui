@@ -1,0 +1,95 @@
+.Login{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background: #f9f9f9 url("../assets/images/BG2.png") no-repeat center;
+  &__logo{
+    margin: 0 0 20px;
+    padding: 20px 0;
+    display: flex;
+  }
+  &__main{
+    background: white;
+    text-align: center;
+    padding: 20px;
+    max-width: 470px;
+    width: 100%;
+    box-shadow: 0 8px 32px rgb(0 0 0 / 7%);
+    border-radius: 15px;
+  }
+  &__title{
+    display: flex;
+    margin: 0 -24px 24px;
+  }
+  &__title a {
+    flex: 1;
+    font-weight: 600;
+    padding: 0 0 10px;
+    font-size: 32px;
+    letter-spacing: 1px;
+  }
+  &__list{
+    margin: 0;
+    padding: 0 0 9px;
+  }
+  &__item{
+    margin-bottom: 20px;
+    display: block;
+  }
+  &__item img{
+    height: 20px;
+    vertical-align: sub;
+  }
+  &__group{
+    display: flex;
+    margin: 0 0 10px;
+    text-align: left;
+    height: 50px;
+  }
+  .input-group-text{
+    background-color: #fff !important;
+  }
+
+  &__group input{
+    height: 50px;
+    //border-left: none;
+  }
+
+  &__group input:focus{
+    border: 1px solid #ced4da;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+  }
+
+  &__icon {
+    align-self: center;
+    display: inline-block;
+  }
+
+  &__return-home-page {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    height: 50px;
+    border-radius: 8px;
+    padding: 10px 25px;
+    line-height: 30px;
+    box-shadow: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-family: inherit;
+    color: #377DFF;
+  }
+
+  &__forgot-password {
+    color: red;
+    text-decoration: underline;
+  }
+}
